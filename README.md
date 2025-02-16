@@ -3,44 +3,28 @@
 ## Introduction
 **iDiscuss** is a simple and dynamic discussion forum built using PHP and MySQL. It allows users to engage in discussions, post questions, and interact with a community. This project is ideal for learning backend development, database management, and web security.
 
-## Features
-- User authentication system (Login & Signup)
-- Categories-based discussion forum
-- Post new questions and reply to existing ones
-- Admin panel for managing categories and discussions
-- Secure password hashing and user session management
-- Responsive UI using Bootstrap
+## 🚀 Features
+- User authentication system (Sign up/Login)
+- Forum discussion threads
+- Commenting system
+- Search functionality
+- Responsive UI design
 
-## Installation
-### Prerequisites
-Ensure you have the following installed on your system:
-- XAMPP (or any PHP & MySQL environment)
-- PHP 7 or above
-- MySQL Database
-
-### Steps
+## 📌 Setup Instructions
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/iDiscuss.git
+   git clone https://github.com/your-username/idiscuss.git
    ```
-2. Move the project folder to the XAMPP `htdocs` directory:
-   ```sh
-   mv iDiscuss /xampp/htdocs/
-   ```
-3. Start Apache and MySQL in XAMPP.
-4. Create a database named `idiscuss` in phpMyAdmin.
-5. Import the `idiscuss.sql` file into the database.
-6. Update the database credentials in `dbconnect.php`:
-   ```php
-   $servername = "localhost";
-   $username = "root";
-   $password = "";
-   $database = "idiscuss";
-   ```
-7. Open your browser and go to:
-   ```
-   http://localhost/iDiscuss/
-   ```
+2. Import the database:
+   - Locate `idiscuss.sql` in `backend/database/`
+   - Import it into your MySQL database
+3. Configure database connection:
+   - Update `config.php` with your database credentials
+4. Start the project:
+   - Run a local server using XAMPP, WAMP, or MAMP
+   - Access the site at `http://localhost/idiscuss`
+  
+     
 ## 📂 Project Structure
 
 ```
