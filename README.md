@@ -41,18 +41,31 @@ Ensure you have the following installed on your system:
    ```
    http://localhost/iDiscuss/
    ```
+## 📂 Project Structure
 
-## Folder Structure
 ```
-📂 iDiscuss/
-├── 📁 assets/            # CSS, JS, Images
-├── 📁 includes/          # Header, Footer, Database connection
-├── 📁 templates/         # Forum templates
-├── index.php            # Homepage
-├── thread.php           # Discussion threads
-├── login.php            # User authentication
-├── signup.php           # User registration
-└── dbconnect.php        # Database connection file
+├── backend/                # Backend-related scripts and APIs
+│   ├── apis/               # API endpoints
+│   ├── database/           # Database schema and configurations
+│   │   ├── idiscuss.sql
+│   ├── partials/           # Reusable PHP components
+│   ├── config.php          # Configuration file
+│
+├── frontend/               # Frontend-related files
+│   ├── css/                # CSS files
+│   ├── js/                 # JavaScript files
+│   ├── images/             # Static images
+│
+├── pages/                  # Individual PHP pages
+│   ├── index.php           # Homepage
+│   ├── about.php           # About us page
+│   ├── contact.php         # Contact page
+│   ├── search.php          # Search functionality
+│   ├── thread.php          # Thread details page
+│   ├── threadlist.php      # List of threads
+│
+├── LICENSE                 # License information
+├── README.md               # Project documentation
 ```
 
 ## Contributing
